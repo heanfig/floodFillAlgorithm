@@ -199,6 +199,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         }
     }
 
+    //http://stackoverflow.com/questions/8070401/android-flood-fill-algorithm/17426163#17426163
+   // http://stackoverflow.com/questions/6371999/android-fill-image-with-colors
+    //IMPORTANT
+   // http://stackoverflow.com/questions/16968412/how-to-use-flood-fill-algorithm-in-android
     public class FloodFill {
         public void floodFill(Bitmap image, Point node, int targetColor,
                               int replacementColor) {
